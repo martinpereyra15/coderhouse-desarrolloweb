@@ -80,11 +80,11 @@
 
 
 .item1{
-    background-image: url(/img/1\ chelsea.jpeg);
+    background-image: url(img/1\ chelsea.jpeg);
 }
 
 .item2{
-    background-image: url(/img/2\ chelsea.jpg);
+    background-image: url(img/2\ chelsea.jpg);
 }
 
 .item3{
@@ -92,26 +92,26 @@
 }
 
 .item4{
-    background-image: url(/img/4\ chelsea.jpg);
+    background-image: url(img/4\ chelsea.jpg);
 }
 
 
 .item5{
-    background-image: url(/img/5\ chelsea.jpg);
+    background-image: url(img/5\ chelsea.jpg);
 }
 
 
 .item6{
-    background-image: url(/img/chelsea\ 11.png);
+    background-image: url(img/chelsea\ 11.png);
 }
 
 
 .item7{
-    background-image: url(/img/7\ chelsea.jpg_large);
+    background-image: url(img/7\ chelsea.jpg_large);
 }
 
 .item8{
-    background-image: url(/img/8\ chelsea.jpeg);
+    background-image: url(img/8\ chelsea.jpeg);
 }
 
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@
 .jumbotron{
     height: 600px;
     background-color: white;
-    background-image: url(/img/cesped\ 2.jpg);
+    background-image: url(img/cesped\ 2.jpg);
     background-size: cover;
     background-position: center;
     color:white;
@@ -187,7 +187,7 @@
 }
 
 .img2{
-    background-image: url(/img/ball\ 3.jpeg);
+    background-image: url(img/ball\ 3.jpeg);
     background-color: blue;
     height: 200px;
     background-size: cover;
