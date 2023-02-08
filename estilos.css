@@ -215,3 +215,134 @@
 .titulo-shirt h3{
     text-align: center;
 }
+
+
+.first-word{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.word-two{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.word-three{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.word-four{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.five-word{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.six-word{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.seven-word{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.eigth-word{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.strong-one{
+   font-size: 25px;
+}
+
+.strong-two{
+    font-size: 25px;
+}
+
+.strong-three{
+    font-size: 25px;
+}
+
+.history-container {
+    background-color: rgba(222, 222, 222, 0.4);
+}
+
+.history-container > div {
+    padding: 1rem;
+}
+
+.history-container img{
+    max-width: 100%;
+    margin: auto;
+}
+
+.form-row{
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-group{
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    font-size: 15px;
+    margin: 30px;
+}
+
+.found{
+    background-image: linear-gradient(to left top, white, grey);
+} 
+
+.found-two{
+    background-color: black;
+}
+
+.nosotros{
+    padding-top: 70px;
+}
+
+.nosotros iframe{
+    width: 600px;
+}
+
+.carousel-inner{
+    max-height: 40rem;
+}
+
+.nosotros p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.nosotros h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.nosotros .row{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner{
+    height: 800px;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner{
+        height: 300px;
+    }
+    .nosotros iframe{
+        width: 500px;
+    }
+}
