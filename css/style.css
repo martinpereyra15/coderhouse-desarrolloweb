@@ -1,0 +1,64 @@
+.fondo, .fondo-two {
+  height: 100%;
+  background-color: blue;
+  background-image: linear-gradient(to top left, white, blue); }
+  .fondo .navbar, .fondo-two .navbar {
+    background-color: black; }
+    .fondo .navbar .logo, .fondo-two .navbar .logo {
+      padding: 0 1rem; }
+      .fondo .navbar .logo:hover, .fondo-two .navbar .logo:hover {
+        transform: rotate(360deg);
+        box-shadow: 0px 1px 23px 5px #002bff;
+        transition: 1s;
+        border-radius: 20px; }
+    .fondo .navbar a, .fondo-two .navbar a {
+      color: blue;
+      font-weight: bold; }
+    .fondo .navbar .navbar-toggler i, .fondo-two .navbar .navbar-toggler i {
+      color: black;
+      font-size: 25px; }
+    .fondo .navbar .navbar-nav .nav-item, .fondo-two .navbar .navbar-nav .nav-item {
+      text-align: center; }
+      .fondo .navbar .navbar-nav .nav-item:hover, .fondo-two .navbar .navbar-nav .nav-item:hover {
+        background-color: blue; }
+        .fondo .navbar .navbar-nav .nav-item:hover a, .fondo-two .navbar .navbar-nav .nav-item:hover a {
+          color: white; }
+
+.first-tittle {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black; }
+  .first-tittle .galeria {
+    height: auto;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 300px);
+    grid-gap: 20px;
+    background-position: center;
+    padding-bottom: 1rem; }
+  .first-tittle .item {
+    border: 6px solid black;
+    background-size: cover;
+    background-position: center; }
+  .first-tittle .item1 {
+    background-image: url(/img/1_chelsea.jpeg); }
+  .first-tittle .item2 {
+    background-image: url(/img/2_chelsea.jpg); }
+  .first-tittle .item3 {
+    background-image: url(/img/3_chelsea.JPG); }
+  .first-tittle .item4 {
+    background-image: url(/img/4_chelsea.jpg); }
+  .first-tittle .item5 {
+    background-image: url(/img/5_chelsea.jpg); }
+  .first-tittle .item6 {
+    background-image: url(/img/chelsea_11.png); }
+  .first-tittle .item7 {
+    background-image: url(/img/7_chelsea.jpg_large); }
+  .first-tittle .item8 {
+    background-image: url(/img/8_chelsea.jpeg); }
+
+@media (max-width: 768px) {
+  .galeria {
+    width: 100% !important; } }
