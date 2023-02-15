@@ -1,0 +1,12 @@
+$color-principal: blue;
+$color-fondo-gris: rgba(188, 188, 188, 0.41);
+$color-background-gradient: linear-gradient(to top left, white, blue);
+$color-blue-hover: rgb(0, 0, 122);
+$color-black: black;
+$color-white: white;
+
+@mixin mobile {
+  @media (min-width: 0) and (max-width: 768px) {
+    @content;
+  }
+}

@@ -1,32 +1,43 @@
-.fondo, .fondo-two {
+.fondo,
+.fondo-two {
   height: 100%;
   background-color: blue;
   background-image: linear-gradient(to top left, white, blue); }
-  .fondo.fondo-registro, .fondo.fondo-nosotros, .fondo-two.fondo-registro, .fondo-two.fondo-nosotros {
-    background-image: linear-gradient(to left top, white, grey) !important; }
-  .fondo .navbar, .fondo-two .navbar {
+  .fondo.fondo-registro, .fondo.fondo-nosotros,
+  .fondo-two.fondo-registro,
+  .fondo-two.fondo-nosotros {
+    background-image: linear-gradient(to top left, white, blue) !important; }
+  .fondo .navbar,
+  .fondo-two .navbar {
     display: flex;
     align-items: center;
     background-color: black; }
-    .fondo .navbar .logo, .fondo-two .navbar .logo {
+    .fondo .navbar .logo,
+    .fondo-two .navbar .logo {
       padding: 0 1rem; }
-      .fondo .navbar .logo:hover, .fondo-two .navbar .logo:hover {
+      .fondo .navbar .logo:hover,
+      .fondo-two .navbar .logo:hover {
         transform: rotate(360deg);
         box-shadow: 0px 1px 23px 5px #002bff;
         transition: 1s;
         border-radius: 20px; }
-    .fondo .navbar a, .fondo-two .navbar a {
+    .fondo .navbar a,
+    .fondo-two .navbar a {
       color: blue;
       font-weight: bold; }
-    .fondo .navbar .navbar-toggler i, .fondo-two .navbar .navbar-toggler i {
+    .fondo .navbar .navbar-toggler i,
+    .fondo-two .navbar .navbar-toggler i {
       padding-top: .2rem;
       color: blue;
       font-size: 25px; }
-    .fondo .navbar .navbar-nav .nav-item, .fondo-two .navbar .navbar-nav .nav-item {
+    .fondo .navbar .navbar-nav .nav-item,
+    .fondo-two .navbar .navbar-nav .nav-item {
       text-align: center; }
-      .fondo .navbar .navbar-nav .nav-item:hover, .fondo-two .navbar .navbar-nav .nav-item:hover {
+      .fondo .navbar .navbar-nav .nav-item:hover,
+      .fondo-two .navbar .navbar-nav .nav-item:hover {
         background-color: blue; }
-        .fondo .navbar .navbar-nav .nav-item:hover a, .fondo-two .navbar .navbar-nav .nav-item:hover a {
+        .fondo .navbar .navbar-nav .nav-item:hover a,
+        .fondo-two .navbar .navbar-nav .nav-item:hover a {
           color: white; }
 
 .first-tittle {
@@ -65,7 +76,7 @@
   .galeria .item8 {
     background-image: url(/img/8_chelsea.jpeg); }
 
-@media (max-width: 768px) {
+@media (min-width: 0) and (max-width: 768px) {
   .galeria {
     width: 100% !important; } }
 
@@ -92,14 +103,16 @@
     font-weight: bold;
     color: white;
     padding: 20px; }
-  .jumbotron .botonera, .jumbotron a {
+  .jumbotron .botonera,
+  .jumbotron a {
     color: white;
     text-decoration: none;
     background-color: rgba(188, 188, 188, 0.41);
     padding: 10px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold; }
-    .jumbotron .botonera a:hover, .jumbotron a a:hover {
+    .jumbotron .botonera a:hover,
+    .jumbotron a a:hover {
       background-color: #00007a; }
 
 .first-word {
@@ -144,10 +157,12 @@
   font-size: 25px; }
 
 .history-container {
-  background-color: rgba(222, 222, 222, 0.4); }
-  .history-container .history-container, .history-container .div {
+  background-color: rgba(188, 188, 188, 0.41); }
+  .history-container .history-container,
+  .history-container .div {
     padding: 1rem; }
-  .history-container .history-container, .history-container img {
+  .history-container .history-container,
+  .history-container img {
     max-width: 100%;
     margin: auto; }
 
@@ -189,7 +204,7 @@
 .nosotros iframe {
   width: 500px; }
 
-@media (max-width: 767px) {
+@media (min-width: 0) and (max-width: 768px) {
   .carousel-inner {
     height: 300px; }
   .nosotros iframe {
