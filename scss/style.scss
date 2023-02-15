@@ -77,42 +77,17 @@
         border: 6px solid $color-black;
         background-size: cover;
         background-position: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 
-    .item1 {
-        background-image: url(/img/1_chelsea.jpeg);
-    }
 
-    .item2 {
-        background-image: url(/img/2_chelsea.jpg);
-    }
-
-    .item3 {
-        background-image: url(/img/3_chelsea.JPG);
-    }
-
-    .item4 {
-        background-image: url(/img/4_chelsea.jpg);
-    }
-
-    .item5 {
-        background-image: url(/img/5_chelsea.jpg);
-    }
-
-    .item6 {
-        background-image: url(/img/chelsea_11.png);
-    }
-
-    .item7 {
-        background-image: url(/img/7_chelsea.jpg);
-    }
-
-    .item8 {
-        background-image: url(/img/8_chelsea.jpeg);
-    }
 }
 
-@include mobile{
+@include mobile {
     .galeria {
         width: 100% !important;
     }
@@ -121,7 +96,7 @@
 .jumbotron {
     height: calc(100vh - 3.5rem);
     background-color: $color-white;
-    background-image: url(/img/cesped_2.jpg);
+    background-image: url(../img/cesped_2.jpg);
     background-size: cover;
     background-position: center;
     color: $color-white;
@@ -281,7 +256,7 @@
     width: 500px;
 }
 
-@include mobile{
+@include mobile {
     .carousel-inner {
         height: 300px;
     }

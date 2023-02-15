@@ -59,22 +59,9 @@
     border: 6px solid black;
     background-size: cover;
     background-position: center; }
-  .galeria .item1 {
-    background-image: url(/img/1_chelsea.jpeg); }
-  .galeria .item2 {
-    background-image: url(/img/2_chelsea.jpg); }
-  .galeria .item3 {
-    background-image: url(/img/3_chelsea.JPG); }
-  .galeria .item4 {
-    background-image: url(/img/4_chelsea.jpg); }
-  .galeria .item5 {
-    background-image: url(/img/5_chelsea.jpg); }
-  .galeria .item6 {
-    background-image: url(/img/chelsea_11.png); }
-  .galeria .item7 {
-    background-image: url(/img/7_chelsea.jpg); }
-  .galeria .item8 {
-    background-image: url(/img/8_chelsea.jpeg); }
+    .galeria .item img {
+      width: 100%;
+      height: 100%; }
 
 @media (min-width: 0) and (max-width: 768px) {
   .galeria {
@@ -83,7 +70,7 @@
 .jumbotron {
   height: calc(100vh - 3.5rem);
   background-color: white;
-  background-image: url(/img/cesped_2.jpg);
+  background-image: url(../img/cesped_2.jpg);
   background-size: cover;
   background-position: center;
   color: white;
