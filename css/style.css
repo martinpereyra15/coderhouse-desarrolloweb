@@ -2,7 +2,11 @@
   height: 100%;
   background-color: blue;
   background-image: linear-gradient(to top left, white, blue); }
+  .fondo.fondo-registro, .fondo.fondo-nosotros, .fondo-two.fondo-registro, .fondo-two.fondo-nosotros {
+    background-image: linear-gradient(to left top, white, grey) !important; }
   .fondo .navbar, .fondo-two .navbar {
+    display: flex;
+    align-items: center;
     background-color: black; }
     .fondo .navbar .logo, .fondo-two .navbar .logo {
       padding: 0 1rem; }
@@ -15,7 +19,8 @@
       color: blue;
       font-weight: bold; }
     .fondo .navbar .navbar-toggler i, .fondo-two .navbar .navbar-toggler i {
-      color: black;
+      padding-top: .2rem;
+      color: blue;
       font-size: 25px; }
     .fondo .navbar .navbar-nav .nav-item, .fondo-two .navbar .navbar-nav .nav-item {
       text-align: center; }
@@ -28,37 +33,164 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black; }
-  .first-tittle .galeria {
-    height: auto;
-    width: 50%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 300px);
-    grid-gap: 20px;
-    background-position: center;
-    padding-bottom: 1rem; }
-  .first-tittle .item {
+
+.galeria {
+  height: auto;
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 300px);
+  grid-gap: 20px;
+  background-position: center;
+  padding-bottom: 1rem; }
+  .galeria .item {
     border: 6px solid black;
     background-size: cover;
     background-position: center; }
-  .first-tittle .item1 {
+  .galeria .item1 {
     background-image: url(/img/1_chelsea.jpeg); }
-  .first-tittle .item2 {
+  .galeria .item2 {
     background-image: url(/img/2_chelsea.jpg); }
-  .first-tittle .item3 {
+  .galeria .item3 {
     background-image: url(/img/3_chelsea.JPG); }
-  .first-tittle .item4 {
+  .galeria .item4 {
     background-image: url(/img/4_chelsea.jpg); }
-  .first-tittle .item5 {
+  .galeria .item5 {
     background-image: url(/img/5_chelsea.jpg); }
-  .first-tittle .item6 {
+  .galeria .item6 {
     background-image: url(/img/chelsea_11.png); }
-  .first-tittle .item7 {
-    background-image: url(/img/7_chelsea.jpg_large); }
-  .first-tittle .item8 {
+  .galeria .item7 {
+    background-image: url(/img/7_chelsea.jpg); }
+  .galeria .item8 {
     background-image: url(/img/8_chelsea.jpeg); }
 
 @media (max-width: 768px) {
   .galeria {
     width: 100% !important; } }
+
+.jumbotron {
+  height: calc(100vh - 3.5rem);
+  background-color: white;
+  background-image: url(/img/cesped_2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0; }
+  .jumbotron .display-4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px; }
+  .jumbotron .lead {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px; }
+  .jumbotron .second-lead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 20px; }
+  .jumbotron .botonera, .jumbotron a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(188, 188, 188, 0.41);
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; }
+    .jumbotron .botonera a:hover, .jumbotron a a:hover {
+      background-color: #00007a; }
+
+.first-word {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.word-two {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.word-three {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.word-four {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.five-word {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.six-word {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.seven-word {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.eigth-word {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
+.strong-one {
+  font-size: 25px; }
+
+.strong-two {
+  font-size: 25px; }
+
+.strong-three {
+  font-size: 25px; }
+
+.history-container {
+  background-color: rgba(222, 222, 222, 0.4); }
+  .history-container .history-container, .history-container .div {
+    padding: 1rem; }
+  .history-container .history-container, .history-container img {
+    max-width: 100%;
+    margin: auto; }
+
+.form-row {
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.form-group {
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.btn {
+  font-size: 15px;
+  margin: 30px; }
+
+.found-two {
+  background-color: black; }
+
+.carousel-inner {
+  max-height: 40rem;
+  height: 800px; }
+
+.nosotros {
+  padding-top: 70px; }
+  .nosotros .row {
+    display: flex;
+    align-items: center; }
+
+.nosotros p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  font-weight: bold; }
+
+.nosotros h1 {
+  color: blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold; }
+
+.nosotros iframe {
+  width: 500px; }
+
+@media (max-width: 767px) {
+  .carousel-inner {
+    height: 300px; }
+  .nosotros iframe {
+    width: 500px; } }
